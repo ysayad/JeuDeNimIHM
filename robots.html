@@ -2,41 +2,70 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Jouer contre des robots</title>
+  <title>Jouer avec des robots</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-
 </head>
 <body>
-  <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
-
-    <h3 class="w3-bar-item">Jeux de Nim</h3>
-
-    <a href="index.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Introduction</a>
-    <a href="#" class="w3-bar-item w3-button w3-red w3-hover-red w3-large w3-padding-32 w3-margin-bottom">Jouer avec des robots</a>
-    <a href="apprentissage.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Apprentissage par renforcement</a>
-    <a href="invincible.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Stratégie gagnante</a>
-
-  </div>
-  
-  <div style="margin-left:25%">
-    <div class="w3-container w3-red w3-center">
-        <h1>Jouer avec des robots</h1>
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+        <h3 class="w3-bar-item">Jeux de Nim</h3>
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-red w3-large w3-padding-32 w3-margin-bottom">Introduction</a>
+        <a href="robots.html" class="w3-bar-item w3-button w3-red w3-large w3-padding-32 w3-margin-bottom">Jouer avec des robots</a>
+        <a href="apprentissage.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Apprentissage par renforcement</a>
+        <a href="invincible.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Stratégie gagnante</a>
     </div>
+      
+    <div style="margin-left:25%">
+        <div class="w3-container w3-red w3-center">
+            <h1>Jouer avec des robots</h1>
+        </div>
 
     <!--Ici pour coder-->
 
-  
+        <div class="w3-container  w3-border">
+            
+            <h2>Explication</h2>
+            <div class="w3-container w3-light-gray w3-round w3-padding w3-margin ">
+                <p class=" w3-padding-small w3-border-left ">Et si au lieu de jouer, on laissait des robots le faire à notre place ? Le principe est simple, chaque
+                  coup possible est representé par un jeton :  </p>
+                  <img class=" w3-container w3-border w3-padding w3-margin-left w3-round " style="background-color: #e0e0e0;" src="../images/jetons_coups.png" alt="explication jetons">
+                <p class="w3-border-left w3-padding" >On va ouvrir la boite du robot et y placer des jetons de chaque type, au moment de jouer, le robot va tirer un jeton au hasard et jouer le coup qui correspond</p>
+                <p style="font-style:italic;text-decoration: underline;">Exemple avec le robot qui tire un jeton qui vaut 2 :</p>
+                <img class="w3-border w3-round w3-padding w3-margin-left " style="background-color: #e0e0e0;" src="../images/robot_stupide.png" alt="explication jetons">
+                  <p>Facile à comprendre non ? A ton tour maintenant ! Observe le robot jouer en cliquant sur le bouton</p>
+                  <a href="#" class="w3-button w3-round-xxlarge w3-green w3-margin-bottom w3-hover-teal">Observer le robot jouer</a>
 
+              </div>
 
+            <h2>Armée de robot</h2>
 
+            <div class="w3-container w3-light-gray w3-round w3-padding w3-margin ">
+              <p class=" w3-padding-small w3-border-left "> On va attribuer à chaque situation possible un robot, ce robot sera donc chargé de jouer un coup lorsque la situation qui lui correspond intervient   </p>
+                <img class=" w3-container w3-border w3-padding w3-margin-left w3-round " style="background-color: #e0e0e0;" src="../images/armee_stupide.png" alt="explication jetons">
+                <p class="w3-border-left w3-padding w3-margin" style="font-style:italic;">Tu te demande peut-être pourquoi il n'y a pas de robot qui correspond à 1 allumette ? C'est parceque si il reste une allumette, tu a forcement perdu !</p>
 
+                <div class="w3-panel w3-pale-yellow w3-border w3-border-yellow w3-leftbar w3-round ">
+                  <p class="w3-large">Mais pourquoi faire ca ?</p>
+                  <p>Peut etre que tu ne vois pas l'intêret de faire cela, car armée ou pas, on choisis les jetons au hasard. C'est tout à fait vrai, pour l'instant notre armée est equivalente au robot seul, mais ne t'en fait pas, cette armée rèvelera vrai son potentiel dès l'étape suivante !</p>
+                 
+                </div> 
+              
+                <p>Maintenant que tu a une armée sous tes ordres, pourquoi ne pas la voir en action ? Clique sur le bouton pour observer tes fidèles robots en action</p>
+              <a href="#" class="w3-button w3-round-xxlarge w3-green w3-margin-bottom w3-hover-teal">Observer ton armée jouer</a>
+              
 
+            </div>
+            
+        
+        </div>
 
-  </div>
-  <div class="w3-bar w3-border w3-round w3-display-bottomright w3-large" style="width: 75%">
-    <a href="index.html" class="w3-button">&#10094; Précédent</a>
-    <a href="#" class="w3-button w3-display-middle w3-green">Jouer</a>
-    <a href="apprentissage.html" class="w3-button w3-right">Suivant &#10095;</a>
-  </div> 
+        
+
+    </div>
+
+    <div class="w3-container w3-border w3-round w3-large w3-center w3pa" style="margin-left: 25%;padding: 0;" >
+       
+        <a href="robots.html" class="w3-button w3-right w3-hover-green ">Etape Suivante &#10095;</a>
+    </div> 
+
 </body>
 </html>
