@@ -13,7 +13,3 @@ Ceci est une description
         * test
 
 
-```C
-#include <stdio.h>
-int main(){}
-```
