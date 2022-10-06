@@ -5,6 +5,26 @@
   <title>Jouer avec des robots</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 
+  <script>
+    const plus = document.querySelector("plus1"),
+    minus = document.querySelector("minus1"),
+    num = document.querySelector("num1");
+    let a = 1;
+    plus.addEventListener("click", ()=>{
+      a++;
+      a = (a < 10) ? "0" + a : a;
+      num1.innerText = a;
+    });
+
+    minus.addEventListener("click", ()=>{
+      if(a > 1){
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        num1.innerText = a;
+      }
+    });
+  </script>
+
 </head>
 <body>
   <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
@@ -29,7 +49,11 @@
             <div class="w3-container" style="display: flex;align-items: center;">
                 <img class="w3-margin"  src="../images/jeton1.png" alt="explication jetons">
                 <p class="w3-margin">Nombre de jetons 1 dans le robot :</p>
-                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                <div class="wrapper" style="display: flex;">
+                  <div class="w3-container w3-large w3-padding num1" style="background-color: rgb(255, 255, 255);" id="num1">01</div>
+                  <div class="w3-button w3-white w3-large minus1" id="minus1"><strong>-</strong></div>
+                  <div class="w3-button w3-white w3-large plus1" id="plus1"><b>+</b></div>
+                </div>
             </div>
 
             <div class="w3-container" style="display: flex;align-items: center;">
