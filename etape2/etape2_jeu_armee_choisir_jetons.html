@@ -7,13 +7,14 @@
 
 </head>
 <body>
+
   <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
     <h3 class="w3-bar-item w3-center">Jeux de Nim</h3>
     <a href="../index.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Découverte du jeu</a>
     <a href="../robots.html" class="w3-bar-item w3-button w3-hover-red w3-red w3-large w3-padding-32 w3-margin-bottom">Jouer avec des robots</a>
     <a href="../apprentissage.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Apprentissage par renforcement</a>
     <a href="../invincible.html" class="w3-bar-item w3-button w3-large w3-padding-32 w3-margin-bottom">Stratégie gagnante</a>
-</div>
+    </div>
   
   <div style="margin-left:25%">
     <div class="w3-container w3-red w3-center">
@@ -37,17 +38,29 @@
                                 <h3>Attribue des jetons au robot 5</h3>
                                 <div class="w3-container" style="display: flex;align-items: center;">
                                     <img class="w3-margin"  src="../images/jeton1.png" alt="explication jetons">
-                                    <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                    <div class="wrapper" style="display: flex;">
+                                        <div class="w3-button w3-white w3-large" onclick="moins('num51')"><span><b>-</b></span></div>
+                                        <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num51">1</span></div>
+                                        <div class="w3-button w3-white w3-large" onclick="plus('num51')"><span><b>+</b></span></div>
+                                    </div> 
                                 </div>
                     
                                 <div class="w3-container" style="display: flex;align-items: center;">
                                     <img class="w3-margin"  src="../images/jeton2.png" alt="explication jetons">
-                                    <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                    <div class="wrapper" style="display: flex;">
+                                        <div class="w3-button w3-white w3-large" onclick="moins('num52')"><span><b>-</b></span></div>
+                                        <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num52">1</span></div>
+                                        <div class="w3-button w3-white w3-large" onclick="plus('num52')"><span><b>+</b></span></div>
+                                    </div> 
                                 </div>
                     
                                 <div class="w3-container" style="display: flex;align-items: center;">
                                     <img class="w3-margin"  src="../images/jeton3.png" alt="explication jetons">
-                                    <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                    <div class="wrapper" style="display: flex;">
+                                        <div class="w3-button w3-white w3-large" onclick="moins('num53')"><span><b>-</b></span></div>
+                                        <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num53">1</span></div>
+                                        <div class="w3-button w3-white w3-large" onclick="plus('num53')"><span><b>+</b></span></div>
+                                    </div> 
                                 </div>
                                 <a onclick="document.getElementById('popupRobot5').style.display='none'" class="w3-button w3-round-xxlarge w3-green w3-margin-bottom w3-hover-teal">Valider</a>
                             </div>
@@ -62,17 +75,29 @@
                             <h3>Attribue des jetons au robot 4</h3>
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton1.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num41')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num41">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num41')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                 
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton2.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num42')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num42">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num42')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                 
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton3.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num43')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num43">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num43')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                             <a onclick="document.getElementById('popupRobot4').style.display='none'" class="w3-button w3-round-xxlarge w3-green w3-margin-bottom w3-hover-teal">Valider</a>
                         </div>
@@ -86,17 +111,29 @@
                             <h3>Attribue des jetons au robot 3</h3>
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton1.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num31')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num31">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num31')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                 
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton2.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num32')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num32">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num32')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                 
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton3.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num33')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num33">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num33')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                             <a onclick="document.getElementById('popupRobot3').style.display='none'" class="w3-button w3-round-xxlarge w3-green w3-margin-bottom w3-hover-teal">Valider</a>
                         </div>
@@ -110,12 +147,20 @@
                             <h3>Attribue des jetons au robot 2</h3>
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton1.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num21')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num21">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num21')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                 
                             <div class="w3-container" style="display: flex;align-items: center;">
                                 <img class="w3-margin"  src="../images/jeton2.png" alt="explication jetons">
-                                <input class="w3-input w3-animate-input w3-margin" type="text" style="width:30%;height: 25px; max-width: 35%;"> 
+                                <div class="wrapper" style="display: flex;">
+                                    <div class="w3-button w3-white w3-large" onclick="moins('num22')"><span><b>-</b></span></div>
+                                    <div class="w3-container w3-large w3-padding" style="background-color: rgb(255, 255, 255);"><span id="num22">1</span></div>
+                                    <div class="w3-button w3-white w3-large" onclick="plus('num22')"><span><b>+</b></span></div>
+                                </div> 
                             </div>
                             <a onclick="document.getElementById('popupRobot2').style.display='none'" class="w3-button w3-round-xxlarge w3-green w3-margin-bottom w3-hover-teal">Valider</a>
                           </div>
@@ -131,4 +176,25 @@
   
   
   </div>
+
+    <script>
+        function plus(num){
+        elem = document.getElementById(num);
+        let i = document.getElementById(num).innerText;
+        if(i < 9){
+            i++;
+            elem.innerHTML = i;
+        }
+        }
+
+        function moins(num){
+        elem = document.getElementById(num);
+        let i = document.getElementById(num).innerText;
+        if(i > 0){
+            i--;
+            elem.innerHTML = i;
+        }
+        }
+    </script>
+  </body>
 
