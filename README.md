@@ -1,15 +1,11 @@
-# Projet IHM
+# Pré-projet IHM : Jeux de Nim
 
-## Test
+* Le rapport est disponible [ici](https://dwarves.iut-fbleau.fr/gitiut/meddahi/PreprojetIHMFI2022/src/branch/master/rapportpreprojet.pdf) : 
 
-Ceci est une description
+* Le Wireflow et les Wireframes est disponible dans le rapport ainsi qu'[ici](https://dwarves.iut-fbleau.fr/gitiut/meddahi/PreprojetIHMFI2022/src/branch/master/wireframe.pdf)
 
-**test**
-
-* test
-
-    * test
-        
-        * test
+* Le site est disponible [ici](https://dwarves.iut-fbleau.fr/~meddahi/)
 
 
+## Auteurs
+Ismail Hani, Youcef Sayad et Adam Meddahi
